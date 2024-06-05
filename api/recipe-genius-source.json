@@ -1,15 +1,92 @@
 {
-  "recipes": [
-    {
-      "name": "Crab Louis",
-      "description": "Fantastic seafood dish",
-      "id": 1
-    }
-  ],
-  "ingredients": [
-   {
-     "name": "fresh crab",
-     "sourse": "atlantic fresh-caught crab meat"
-   }   
- ]
+    "recipes": [
+        {
+            "id": 1,
+            "title": "Spaghetti Carbonara",
+            "cuisine": "Italian",
+            "ingredients": ["spaghetti", "eggs", "pancetta", "Parmesan cheese", "black pepper"],
+            "instructions": "Cook spaghetti. Mix eggs and cheese. Fry pancetta. Combine all ingredients.",
+            "nutrition": {
+                "calories": 400,
+                "protein": 15,
+                "carbs": 50,
+                "fat": 15
+            }
+        },
+        {
+            "id": 2,
+            "title": "Margherita Pizza",
+            "cuisine": "Italian",
+            "ingredients": ["pizza dough", "tomato sauce", "mozzarella cheese", "basil"],
+            "instructions": "Spread tomato sauce on dough. Add cheese and basil. Bake in oven.",
+            "nutrition": {
+                "calories": 300,
+                "protein": 12,
+                "carbs": 40,
+                "fat": 10
+            }
+        },
+        {
+            "id": 3,
+            "title": "Chicken Tikka Masala",
+            "cuisine": "Indian",
+            "ingredients": ["chicken", "yogurt", "tomato sauce", "garam masala", "cream"],
+            "instructions": "Marinate chicken in yogurt and spices. Cook in tomato sauce and cream.",
+            "nutrition": {
+                "calories": 500,
+                "protein": 30,
+                "carbs": 20,
+                "fat": 30
+            }
+        },
+        {
+            "id": 4,
+            "title": "Beef Tacos",
+            "cuisine": "Mexican",
+            "ingredients": ["beef", "taco shells", "lettuce", "cheese", "salsa"],
+            "instructions": "Cook beef with spices. Fill taco shells with beef, lettuce, cheese, and salsa.",
+            "nutrition": {
+                "calories": 350,
+                "protein": 20,
+                "carbs": 30,
+                "fat": 15
+            }
+        },
+        {
+            "id": 5,
+            "title": "Vegetarian Stir-Fry",
+            "cuisine": "Chinese",
+            "ingredients": ["broccoli", "carrots", "bell peppers", "soy sauce", "tofu"],
+            "instructions": "Stir-fry vegetables and tofu with soy sauce.",
+            "nutrition": {
+                "calories": 250,
+                "protein": 10,
+                "carbs": 35,
+                "fat": 10
+            }
+        }
+    ],
+    "collections": [
+        {
+            "id": 1,
+            "name": "Favorite Italian Recipes",
+            "recipes": [1, 2],
+            "owner": "ruth@gmail.com",
+            "shared_with": ["frank23@gmail.com"]
+        },
+        {
+            "id": 2,
+            "name": "Healthy Choices",
+            "recipes": [2, 3, 5],
+            "owner": "susan@gmail.com",
+            "shared_with": ["chefT@gmail.com", "friendlycook@gmail.com"]
+        },
+        {
+            "id": 3,
+            "name": "Asian Delights",
+            "recipes": [3, 4],
+            "owner": "chefjohn@gmail.com",
+            "shared_with": ["user@gmail.com", "chef@gmail.com"]
+        }
+    ]
 }
